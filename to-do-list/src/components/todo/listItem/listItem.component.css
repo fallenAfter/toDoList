@@ -1,0 +1,13 @@
+.td-list-item{
+  color:#333;
+  display:flex;
+  flex-direction: row;
+  flex-basis: 33%;
+}
+.td-list-item>div{
+  flex-grow:1
+
+}
+.td-list-item>div:nth-of-type(2){
+  flex-grow: 2;
+}
